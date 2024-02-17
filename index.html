@@ -1,0 +1,123 @@
+<html manifest="HemaPS4.manifest"><head>
+<title>zezo PS4 PSFREE Host Auto For FW900</title>
+<script>history.replaceState(null,null,'index.html');</script>
+<Style>
+body {
+            background-image: url("zezo.jpg");
+            height: 80%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+
+.themes {
+    width: 98%;
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.theme {
+    background: rgba(0, 0, 0, 0.75);
+    width: 14.1%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.theme img {
+    width: 100%;
+}
+
+.theme span {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.themes {
+    width: 98%;
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.theme {
+    background: rgba(0, 0, 0, 0.75);
+    width: 14.1%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.theme img {
+    width: 100%;
+}
+
+.theme span {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+#myProgress {
+    border: 5px solid #FF0000;
+    border-radius: 5px;
+    background-color: #000000;
+    height: 45px;
+    position: absolute;
+    top: -130;
+    bottom: 0;
+    left: 150;
+    right: 150;
+    margin: auto;
+}
+
+#myBar {
+    width: 0%;
+    height: 40px;
+    background-color: #000000
+        /*#201e45*/
+    ;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 35px;
+    padding-top: 5px;
+}
+</Style>
+</head>
+
+	<body >		
+    <script>
+                if(window.applicationCache.status==2){localStorage.is755BCached=true;}
+        	window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="جارى حفظ الصفحة";localStorage.is755BCached=false;};
+		window.applicationCache.onprogress=function(a){document.getElementById("myBar").style.width=(Math.round(100*(a.loaded/a.total)))+"%";document.getElementById("myBar").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
+		window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="تم حفظ الصفحة";localStorage.is755BCached=true;setTimeout(function(){window.location.reload("myBar"); }, 1500);};
+        	window.applicationCache.onnoupdate=function(){window.location.replace("lndex.html");};
+        	window.applicationCache.onerror=function(){window.location.replace("lndex.html");};
+        </script>
+			<script>
+			var width = 0;
+			function frame1() {
+				var elem = document.getElementById("myBar");
+				var i=0;
+				var id = setInterval(fra, 10);
+				function fra(){
+				  if(i<10 && width<100){
+					  width++;
+					  elem.style.width = width + "%";
+					  elem.innerHTML = width  + "%";
+				  } i++;
+				}
+			}
+		</script>	
+		<h1 id=msgs style='font-size:50px;text-align:center;color:white'>zezo</h1>
+		<h1 id="myProgress">
+		  <div id="myBar" style='color:red'></div>
+		</h1>
+<div style="background-color:#032140;color:white;position:fixed;left:0;bottom:-0px;width:100%;text-align:center;">
+</div>
+	</body>
+</html>

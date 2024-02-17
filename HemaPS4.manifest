@@ -1,0 +1,24 @@
+CACHE MANIFEST 
+
+CACHE: 
+alert.mjs
+config.mjs
+hemaps4.jpg
+exploit.mjs
+goldhen_2.4b16.bin
+index.html
+int64.js
+kexploit.js
+lndex.html
+rop.js
+module\chain.mjs
+module\constants.mjs
+module\int64.mjs
+module\mem.mjs
+module\memtools.mjs
+module\offset.mjs
+module\rw.mjs
+module\utils.mjs
+
+NETWORK: 
+* 

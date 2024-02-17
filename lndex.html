@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>zezo PS4 PSFREE Host Auto For Soft 900</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-image: url("zezo.jpg");
+            height: 80%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .loader {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -75px 0 0 -75px;
+
+            border: 10px solid #1f1e1e;
+            border-radius: 50%;
+            border-top: 10px solid #FF0000;
+            border-left: 10px solid #FF0000;
+            width: 120px;
+            height: 120px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .info {
+            overflow: hidden;
+            position: fixed;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            font-size: 45px;
+            font-family: sans-serif;
+            color: #b8b8b8;
+
+            transform: translate(-50%, -50%);
+        }
+
+        .j {
+            font-size: 15px;
+            color: #2F3335;
+        }
+    </style>
+    <script>
+        function allset() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("allset").style.display = "block";
+        }
+
+        function awaitpl() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("awaiting").style.display = "block";
+        }
+    </script>
+	<h1 id=msgs style='font-size:50px;text-align:center;color:white'>zezo</h1>
+    <script src="./int64.js"></script>
+    <script src="./rop.js"></script>
+    <script src="./kexploit.js"></script>
+    <script type=module src="./alert.mjs"></script>
+		<h1 id=msgs style='font-size:50px;text-align:center;color:white;margin-top: 400px'></h1>
+
+</head>
+
+</html>
+
+<body">
+
+    <div id="loader" class="loader"></div>
+    <div id="awaiting" class="info" style="display:none;">
+        اغلق المتصفح وافتحةمرةاخرى
+        <br />
+    </div>
+
+    <div id="allset" class="info" style="display:none;">
+        اغلق المتصفح وافتحةمرةاخرى
+    </div>
+
+</body>
+<script>
+
+</script>
